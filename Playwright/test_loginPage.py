@@ -9,4 +9,8 @@ def test_playwright_basics(playwright): #playwright is gobal fixture
     page.get_by_label("password").fill("Learning@830$3mK2")
     page.get_by_role("combobox").select_option("stud")
     page.get_by_role("checkbox", name ="terms").click()
-    page.get_by_role("radio", value= "user").click()
+    #page.get_by_role("radio", value= "user").click()
+    page.get_by_role("button", name="Sign In").click()
+
+
+
