@@ -13,6 +13,9 @@ def test_UI_Validations_dynamic(page: Page):
     NokiaProduct.get_by_role("button").click()# to click on the  Add to cart button.
     page.get_by_text("Checkout").click() # to click on checkout button
     expect(page.locator(".media-body")).to_have_count(2) # to validate 2 items are added in cart
+    page.get_by_role("button",name="Checkout").click()
+    page.get_by_role("button",name="Purchase").click()
+
 
 
 
