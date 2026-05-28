@@ -10,5 +10,4 @@ def test_child_windows(playwright:Playwright):
         page.get_by_text("Free Access to InterviewQues/ResumeAssistance/Material").click()
         childpage =newpage.value
         text =childpage.locator(".red").text_content()
-        print(text)
-
+        print(tex
