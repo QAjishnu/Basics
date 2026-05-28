@@ -9,4 +9,4 @@ while a>1:
     print(a)
     a = a-1
     if a==1:
-        print("execution has been done")
+        print("execution has been done.")

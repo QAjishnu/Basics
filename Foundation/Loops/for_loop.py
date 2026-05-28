@@ -10,5 +10,5 @@ for j in range(1,6):
 print(sum)
 
 #for looping after a certain interval
-for k in range(1,12,2):
+for k in range(1,12,3):
     print(k)

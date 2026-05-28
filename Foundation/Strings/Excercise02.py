@@ -17,10 +17,22 @@ print(username)
 
 #Find duplicate characters
 #Remove duplicate characters
+text_01 ="banana"
+result =""
+for c in text_01:
+     if c not in result:
+          result +=c
+print(result)
+
 #Character frequency counter
 text ="programming"
-dict={}
-for char in text
+freq={}
+for ch in text:
+     if ch in freq:
+          freq[ch] +=1
+     else:
+          freq[ch]=1
+print (freq)
 #Remove special characters
 
 
